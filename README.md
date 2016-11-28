@@ -17,14 +17,17 @@ Just a simple repo to have Github host this font.
 
 ### Add the Font Face to your project
 
+Download this repo then
+
 ```bash
 @font-face {
-    font-family: ' Bauhaus93';
-    src: url('https://cdn.rawgit.com/garrettmac/Bauhaus93-Font/Bauhaus93.eot');
-    src: url('https://cdn.rawgit.com/garrettmac/Bauhaus93-Font/Bauhaus93.eot?#iefix') format('embedded-opentype'),
-         url('https://cdn.rawgit.com/garrettmac/Bauhaus93-Font/Bauhaus93.ttf') format('truetype');
-    font-weight: 100;
-    font-style: normal;
+	font-family: 'Bauhaus93';
+	src: url('../assets/fonts/bauhaus93/bauhaus_93.eot');
+	src: local('☺'), url('../assets/fonts/bauhaus93/bauhaus_93.woff') format('woff'),
+   url('../assets/fonts/bauhaus93/bauhaus_93.ttf') format('truetype'),
+   url('../assets/fonts/bauhaus93/bauhaus_93.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 ```
 
@@ -38,6 +41,8 @@ font-family: 'Bauhaus93';
 Having issues having github hosting it?
 
 Replace `cdn.rawgit.com` to `rawgit.com` or `raw.githubusercontent.com`.
+For non-production environments, such as jsFiddle, use `rawgit.com`
+For production environments use `cdn.rawgit.com`
 
 If you're having issues on the hosting side checkout this [Stackoverflow Q&A](http://stackoverflow.com/a/18049842/4642530)
 
