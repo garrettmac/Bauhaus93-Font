@@ -22,10 +22,10 @@ Download this repo then
 ```bash
 @font-face {
 	font-family: 'Bauhaus93';
-	src: url('../assets/fonts/bauhaus93/bauhaus_93.eot');
-	src: local('☺'), url('../assets/fonts/bauhaus93/bauhaus_93.woff') format('woff'),
-   url('../assets/fonts/bauhaus93/bauhaus_93.ttf') format('truetype'),
-   url('../assets/fonts/bauhaus93/bauhaus_93.svg') format('svg');
+	src: url('../assets/fonts/Bauhaus93/Bauhaus93.eot');
+	src: local('☺'), url('../assets/fonts/Bauhaus93/Bauhaus93.woff') format('woff'),
+   url('../assets/fonts/Bauhaus93/Bauhaus93.ttf') format('truetype'),
+   url('../assets/fonts/Bauhaus93/Bauhaus93.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
