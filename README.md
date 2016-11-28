@@ -2,6 +2,11 @@
 
 Just a simple repo to have Github host this font.
 
+## Demo
+
+ https://garrettmac.github.io/Bauhaus93-Font/
+
+
 ## What does it look like?
 
 > ![Bauhaus93 Font Snapshot](./snapshot.png)
@@ -20,13 +25,13 @@ Just a simple repo to have Github host this font.
          url('https://cdn.rawgit.com/garrettmac/Bauhaus93-Font/Bauhaus93.ttf') format('truetype');
     font-weight: 100;
     font-style: normal;
-} 
+}
 ```
 
-then 
+then
 ```bash
 .app-font{
-font-family: 'Bauhaus93'; 
+font-family: 'Bauhaus93';
 }
 ```
 
